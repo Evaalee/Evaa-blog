@@ -325,15 +325,14 @@ button{
 
 
 }
-.article h1{
-	
-}
+
 h2{
 
 	font-size: 30px;
 
 	color: #000;
-
+        
+	padding-left:20px;
 }
 
 .text-section > *{
@@ -361,6 +360,8 @@ h2{
     font-size:16px;
 
     letter-spacing: 1px;
+	
+	padding-left:20px;
 
 }
 

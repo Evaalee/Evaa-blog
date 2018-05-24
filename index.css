@@ -1,198 +1,514 @@
 body{
+
 	margin:0;
+
 	padding:0;
-}
-nav{
-	background-color: transparent;
-	height:50px;
-}
-ul{
-	margin: 0;
-}
-#banner{
-	background-color: transparent;
-	height:700px;
-}
-header{
-	background-color: rgba(0,0,0,0.01);
-}
-nav ul{
-	list-style:none;
-	margin:0;
-	float:right;
-}
-nav ul li,nav .logo{
-	display:inline-block;
-	line-height: 50px;
-	margin-right:20px;
-}
-nav ul li a{
-    line-height:inherit;
-    text-decoration:none;
-    display: inline-block;
-    height:inherit;
-    color:#fff;
-}
-nav .logo{
-	float：left;
-	padding-left:10px;
-	text-decoration:none;
-}
-#banner .inner{
-	max-height:300px;
-	text-align: center;
-	margin:0 auto;
-	position:relative;
-	top:200px;
-}
-#banner .inner h1{
-	margin:0;
-}
-button{
-	width:80px;
-	height:45px;
-	border:none;
-	background:#594747;
-	color:white;
-	padding:14px 4px;
 
 }
+
+nav{
+
+	background-color: transparent;
+	height:50px;
+
+}
+
+ul{
+
+	margin: 0;
+	list-style: none;
+
+}
+a { 
+	color: #f3f3f3; 
+	text-decoration: none;
+	 }
+.nav{
+	height: 50px;
+	border-bottom: 2px;
+
+}
+.nav li{
+	float :left;
+	position: relative;
+	height:30px;
+	width:40px;
+
+}
+	
+.nav li a{
+	display: block;
+	text-align:center;
+	height:30px;
+	line-height: 30px;
+	width:80px;
+	
+}
+.subNav{
+	position: absolute;
+	overflow: hidden;
+	width:45px;
+	background:#ddd;
+}
+.subNav li a{
+     background:#ddd;
+     text-align:center; }
+.subNav li a:hover{ 
+	background:#efefef;}
+
+#banner{
+
+	background-color: transparent;
+
+	height:700px;
+
+}
+.article #banner{
+	height: 490px;
+}
+
+header{
+
+	background-color: rgba(0,0,0,0.01);
+
+}
+
+nav ul {
+
+	list-style:none;
+
+	margin:0;
+
+	float:right;
+
+}
+
+nav ul li,nav .logo{
+
+	display:inline-block;
+
+	line-height: 50px;
+
+	margin-right:20px;
+
+}
+
+nav ul li a{
+
+    line-height:inherit;
+
+    text-decoration:none;
+
+    display: inline-block;
+
+    height:inherit;
+
+    color:#aba5a5;
+
+}
+
+nav .logo{
+
+	float：left;
+
+	padding-left:10px;
+
+	text-decoration:none;
+
+}
+
+#banner .inner{
+
+	max-height:300px;
+
+	text-align: center;
+
+	margin:0 auto;
+
+	position:relative;
+
+	top:200px;
+
+}
+.article #banner .inner{
+	top:220px;
+}
+#banner .text{
+	margin:0 auto;
+}
+
+#banner .inner .subheading{
+
+	margin:0;
+
+}
+
+button{
+
+	width:80px;
+
+	height:45px;
+
+	border:none;
+
+	background:#594747;
+
+	color:white;
+
+	padding:14px 4px;
+
+
+
+}
+
 #banner .inner .more{
+
 	margin-top:280px;
+
 }
+
 .subheading{
+
 	line-height:30px;
+
 	margin:10px;
+
 }
+
 .logo{
+
 	font-size: 20px;
+
 	font-weight:700;
+
 	letter-spacing:1px;
+
 }
+
 .logo a{
+
 		color:#fff;
 
 }
+
 .green-section{
+
 	text-align:center;
+
 	background-color:#42a8d0;
+
 	color:#fff;
+
 	padding:100px;
+
 }
+
 .green-section .hr{
+
 	background-color: #3297c0;
+
 } 
+
 .icons{
+
 	margin-top:20px;
+
 }
+
 .green-section .icons .icon{
+
 	display:inline-block;
+
 	width:80px;
+
 	height:80px;
+
 	border:1px solid #4a98be;
+
 	transform: rotate(45deg);
+
 	margin:20px;
 
+
+
 }
+
 .wrapper{
+
 	max-width:1080px;
+
 	margin:0 auto;
+
 }
+
 .hr{
+
 	width:100%;
+
 	height:2px;
+
 	margin:20px auto;
+
 }
+
 .grey-section{
+
 	background-color: #576584;
 
+
+
 }
+
 .grey-section .img-section{
+
     width:45%;
+
 }
+
 .img-section{
+
 	width:100%;
+
 	height:55%;
+
 }
+
 .img-section img{
+
 	width:100%;
+
 	height:100%;
+
 }
+
 .grey-section .text-section{
+
 	width:55%;
+
 }
+
 .articlepre > div{
+
     float:left;
+
     font-size: 0;
+
 }
+
 .articlepre:nth-child(odd){
+
 	background-color: rgba(255,255,255,0.5);
+
 }
+
 .articlepre:after{
+
     content:'';
+
     display:block;
+
     clear:both;
+
     background-color: #75809b;
+
 }
+
+
 
 .text-section{
-	position:relative;
+
+	
 	top:65px;
+
 	left:50px;
 
+
+
+}
+.article h1{
+	
 }
 h2{
+
 	font-size: 30px;
+
 	color: #000;
-}
-.text-section > *{
-	max-width: 90%
-}
-.text-section h2{
-    margin-bottom: 20px;
-}
-.text-section .subheading{
-	font-size: 24px;
-	margin-top:0;
-}
-.text-section p{
-    font-size:16px;
-    letter-spacing: 1px;
-}
-.main-wrapper{
-	background:#444 url(http://img.ivsky.com/img/bizhi/pre/201512/11/the_big_bang_theory.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center center;
-}
-footer{
-    background-color: #444;
-	color:white;
-	text-align: center;
+
 }
 
+.text-section > *{
+
+	max-width: 90%
+
+}
+
+.text-section h2{
+
+    margin-bottom: 20px;
+
+}
+
+.text-section .subheading{
+
+	font-size: 24px;
+
+	margin-top:0;
+
+}
+
+.text-section p{
+
+    font-size:16px;
+
+    letter-spacing: 1px;
+
+}
+
+.main-wrapper{
+
+	background:#444 url(TBBT.jpg);
+
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+    background-size:cover;
+
+    background-position:center center;
+
+}
+.article{
+    background:#444 url(TBBT.jpg);
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+    background-size:cover;
+
+    background-position:center center;
+}
+
+footer{
+
+    background-color: #444;
+
+	color:white;
+
+	text-align: center;
+
+}
+
+
+
 ul.share-icons{
+
 	display:block;
+
+	width:1080px;
+
+	margin:0 auto;
+
+	padding: 50px;
+
+}
+
+.share-icons li{
+
+	display: inline-block;
+
+	height: 70px;
+
+	padding: 10px;
+
+}
+
+.s-icons{
+
+	display:inline-block;
+
+}
+
+.eva{
+
+	padding-b:20px;
+
+	font-size: 35px;
+
+	font-weight: 70px;
+
+	margin:0px;
+
+	margin-bottom: 20px;
+
+}
+
+footer p{
+
+	margin: 0;
+
+}
+.mask{
+	display: none;
+	position: fixed;
+	top:0;
+	bottom: 0;
+	right:0;
+	left: 0;
+	background: rgba(0,0,0,0.3);
+}
+#sidebar
+{
+	
+	position:fixed;
+	width:300px;
+	top:0;
+	right:-300px;
+	bottom:0;
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0;
+	transition: right 0.5s;
+
+}
+#sidebar ul{
+	list-style: none;
+	padding:0;
+	margin:0;
+
+}
+#sidebar ul a{
+	text-decoration: none;
+	color:color:#fff;
+	padding:10px 30px;
+	width: 100%;
+	display: inline-block;
+}
+#sidebar ul a:hover{
+	background-color: #444;
+
+}
+.back-to-top{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	border: 1px solid #888;
+	background: none;
+
+}
+article{
+	line-height: 2;
+	padding: 10px 0;
+}
+.article .content{
+	background: #f1f1f1;
+}
+.content_wrapper{
 	width:1080px;
 	margin:0 auto;
-	padding: 50px;
 }
-.share-icons li{
-	display: inline-block;
-	height: 70px;
-	padding: 10px;
-}
-.s-icons{
-	display:inline-block;
-}
-.eva{
-	padding-b:20px;
-	font-size: 35px;
-	font-weight: 70px;
-	margin:0px;
-	margin-bottom: 20px;
-}
-footer p{
-	margin: 0;
+.article_info{
+	font-size:14px;
+	color:#888;
+	padding: 15px 0;
+
 }

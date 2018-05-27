@@ -25,7 +25,7 @@
      	},400)
      })
      $(window).on('scroll',function(){//监听srcoll事件
-     	if($(window).scrollTop()<$(window).height())
+     	if($(window).scrollTop()>$(window).height())
      		backButton.fadeIn();
      	else
      		backButton.fadeOut();
